@@ -1,0 +1,36 @@
+<!-- activity_inicio.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Mensaje de bienvenida -->
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a la Tienda de Metal"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:paddingBottom="32dp"/>
+
+    <!-- Botón para iniciar sesión como Administrador -->
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión como Administrador"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón para iniciar sesión como Usuario -->
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar como Usuario"
+        android:padding="16dp"/>
+
+</LinearLayout>
